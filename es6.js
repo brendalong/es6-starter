@@ -41,6 +41,19 @@ function func4() {
 }
 // func4();
 
+//be carefull when expecting a value outside of code block
+function func5(){
+  for (var i = 0; i < 10; i++){
+    //do some stuff
+  }
+  //want to do something based on i
+  console.log("the total number of products", i);
+};
+
+// func5();
+
+
+
 //block-scoped and cannot change/reassigned
 const MY_FAVORITE_NUMBER = 3;
 // MY_FAVORITE_NUMBER = 12; // SyntaxError
