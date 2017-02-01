@@ -72,6 +72,8 @@ var reflect = function(value) {
 
 // effectively equivalent to:
 
+//following produce same, single argument doesn't need parens
+// var reflect = (value) => value;
 var reflect = value => value;
 
 // console.log("reflect in ES6: ", reflect("ES6 is the new hotness.") );
@@ -122,4 +124,3 @@ let myNewObj = {
 
 // console.log("my New Obj", myNewObj);
 // myNewObj.myMessage();
-

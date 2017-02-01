@@ -116,7 +116,8 @@ var sum = () => 1 + 2;
 //define the variables and set values in object.
 let wow = "Hi there",
     es6 = "ES6",
-    myMessage = () => {console.log("howdy");};
+    myMessage = () => {
+        console.log("howdy");};
 
 let myOldObj = {
   wow: wow,
