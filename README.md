@@ -1,4 +1,4 @@
-#What the ES6?
+# What the ES6?
 A few notes to get started.
 
 ECMAScript is the standard for the JavaScript implementation.
@@ -9,7 +9,7 @@ ECMAScript is the standard for the JavaScript implementation.
 * ECMAScript 5 (ES5) was released in December 2009.
 * ECMAScript 6 (ES6) was released in June 2015, and is the latest official version of JavaScript.
 
-##Resources
+## Resources
 * http://es6-features.org
 * https://developer.mozilla.org
     * [List of JavaScript Methods] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Methods_Index)
